@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: "gatsby-source-shopify",
       options: {
-        password: process.env.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,
-        storeUrl: process.env.wonderiencevip.myshopify.com,
+        password: process.env.SHOPIFY_SHOP_PASSWORD,
+        storeUrl: process.env.GATSBY_SHOPIFY_STORE_URL,
         shopifyConnections: ["collections"],
       },
     },
