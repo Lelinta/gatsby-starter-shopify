@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: "gatsby-starter-shopify",
     siteTitleDefault: "gatsby-starter-shopify by @GatsbyJS",
-    siteUrl: "https://shopify-demo.gatsbyjs.com",
+    siteUrl: "https://wonderiencevip.myshopify.com",
     hrefLang: "en",
     siteDescription:
       "A Gatsby starter using the latest Shopify plugin showcasing a store with product overview, individual product pages, and a cart.",
@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: "gatsby-source-shopify",
       options: {
-        password: process.env.SHOPIFY_SHOP_PASSWORD,
-        storeUrl: process.env.GATSBY_SHOPIFY_STORE_URL,
+        password: process.env.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,
+        storeUrl: process.env.wonderiencevip.myshopify.com,
         shopifyConnections: ["collections"],
       },
     },
